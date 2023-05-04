@@ -22,5 +22,5 @@ A new Flutter plugin project.
   s.swift_version = '5.0'
 
   s.static_framework = true
-  s.dependency 'RecaptchaEnterprise', '~> 18.1.0'
+  s.dependency 'RecaptchaEnterprise', '~> 18.2.0'
 end

@@ -2,7 +2,7 @@ group 'it.matteoricupero.flutter_recaptcha_enterprise'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.6.10'
+    ext.kotlin_version = '1.8.20'
     repositories {
         google()
         mavenCentral()
@@ -46,5 +46,5 @@ android {
 }
 
 dependencies {
-    implementation 'com.google.android.recaptcha:recaptcha:18.0.1'
+    implementation 'com.google.android.recaptcha:recaptcha:18.1.2'
 }

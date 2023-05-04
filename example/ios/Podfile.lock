@@ -2,10 +2,10 @@ PODS:
   - Flutter (1.0.0)
   - flutter_recaptcha_enterprise (0.0.1):
     - Flutter
-    - RecaptchaEnterprise (~> 18.1.0)
-  - Protobuf (3.21.12)
-  - RecaptchaEnterprise (18.1.0):
-    - Protobuf (~> 3.21.3)
+    - RecaptchaEnterprise (~> 18.2.0)
+  - RecaptchaEnterprise (18.2.0):
+    - RecaptchaInterop (~> 18.2.0)
+  - RecaptchaInterop (18.2.0)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -13,8 +13,8 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - Protobuf
     - RecaptchaEnterprise
+    - RecaptchaInterop
 
 EXTERNAL SOURCES:
   Flutter:
@@ -24,9 +24,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  flutter_recaptcha_enterprise: 999788f4f75ce702dd03fc22f3d8a6d44b922873
-  Protobuf: 120350fc38646e2dedc26f49ecba778184ea1de2
-  RecaptchaEnterprise: 5eb062b6e62af16593b8ed2bcb220b5355d86c7e
+  flutter_recaptcha_enterprise: 8136b4cb23fe4677cc5f38ecd423de50785a6a24
+  RecaptchaEnterprise: 56ceddf76a1c2fe23914d87081afa10f39cab099
+  RecaptchaInterop: 6e5bca275f90cab07ca038bbe528bbdb0e2a7565
 
 PODFILE CHECKSUM: 985e5b058f26709dc81f9ae74ea2b2775bdbcefe
 
