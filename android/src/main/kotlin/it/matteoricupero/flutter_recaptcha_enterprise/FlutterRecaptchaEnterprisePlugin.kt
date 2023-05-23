@@ -58,6 +58,11 @@ class FlutterRecaptchaEnterprisePlugin : FlutterPlugin, MethodCallHandler {
                     }
                 }
 
+                if (!::recaptchaClient.isInitialized) {
+                    result.error("Recaptcha client not initialized", null, null)
+                    return@launch
+                }
+
                 recaptchaClient.execute(recaptchaAction)
                         .onSuccess { token ->
                             result.success(token)
